@@ -1,4 +1,4 @@
 #!/bin/bash
-echo 'yum install -y epel-release'
-echo 'yum update -y'
-echo 'yum groupinstall "development tools"'
+string1=$(yum install -y epel-release)
+string2=$(yum update -y)
+string3=$(yum groupinstall 'development tools')
